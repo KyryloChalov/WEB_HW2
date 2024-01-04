@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "k9"
+version = "4.0.2"
+description = ""
+authors = ["KyryloChalov <ks7977166@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt-toolkit = "3.0.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
